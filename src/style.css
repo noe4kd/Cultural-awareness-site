@@ -9,6 +9,7 @@
    --secondary-color: #f2f7fe;
    --box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
    --bs-border-radius: 10px;
+   --text-primary: #022391;
  }
 
  body {
@@ -25,6 +26,13 @@
    color: #022391;
  }
 
+ .nav-item {
+   font-size: 20px;
+   margin-left: 65px;
+   font-weight: bolder;
+   color: var(--text-primary) !important;
+ }
+
  h2 {
    text-align: left;
    color: rgb(6, 2, 131);
@@ -35,16 +43,20 @@
    transition: 200ms;
  }
 
- h4 {
-   position: relative;
-   left: 65px;
+ h4 p {
+   margin-left: 25px;
+   margin-top: 200px;
    font-family: "Montserrat", sans-serif;
    list-style: none;
-   padding: 10px 0;
+
    border-radius: 15px;
    line-height: 1.5;
    max-width: 800px;
    color: #020291;
+ }
+
+ h4 p.box2 {
+   margin-top: 5px;
  }
 
  h4 .box1:hover {
