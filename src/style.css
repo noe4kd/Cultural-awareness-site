@@ -82,6 +82,11 @@
    color: #020291;
  }
 
+ .navbar {
+   padding-top: 25px;
+   padding-bottom: 25px;
+ }
+
  .nav-item {
    margin-left: 20px;
    margin-right: 20px;
@@ -135,6 +140,7 @@
    }
  }
 
+
  .card-body {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    text-align: left;
@@ -149,4 +155,22 @@
 
  .homepage {
    padding: 0px 0px 35px 35px;
+ }
+
+ .primary-link {
+   border-radius: 4px;
+   padding: 10px 10px;
+   text-decoration: none;
+   text-transform: capitalize;
+   background: var(--primary-color);
+   box-shadow: var(--box-shadow);
+   color: white;
+ }
+
+ .mb-5 {
+   font-size: 15px;
+ }
+
+ .primary-link:hover {
+   color: white;
  }
