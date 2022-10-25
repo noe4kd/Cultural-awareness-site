@@ -16,17 +16,17 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" p">
-    <div class="container">
-      <h1 class="fs-1 text-bold" title="Homepage">Cultural awareness</h1>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <h1 class="fs-1 text-bold" title="Homepage"><a href="/">Cultural awareness</a></h1>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class=" navbar-collapse collapse show justify-content-end" id="navbarNav" style>
+      <div class=" navbar-collapse collapse show justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" aria-current="page" href="/about.html" title="About Culture">About
-              Culture</a>
+          <li class="nav-item"><a class="nav-link" aria-current="page" href="/about.html"
+              title="About Culture">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/awareness.html" title="Increase Cultural Awareness">Awareness</a>
@@ -35,13 +35,13 @@
             <a class="nav-link" href="/services.html" title="This are my services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="mailto:noelia4kd@gmail.com">Contact</a>
+            <a class="nav-link" href="/contact.html" title="Contact me">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <hr />
+
 
 
   <h4 class="mt-5">
@@ -95,25 +95,23 @@
     </div>
   </div>
 
-  <footer class="bg-light text-center mt-5">
-    <div class="container p-4 pb-0">
-      <section class="footer">
-        <div class="row d-flex justify-content-center">
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>If you want to know more</strong>
-            </p>
-          </div>
-          <div class="col-auto">
-            <a href="mailto:noelia4kd@gmail.com" class="primary-link mb-5" title="Contact Noelia Fourcade">Contact
-              me</a>
-          </div>
-        </div>
-      </section>
-    </div>
-    <div class="text-center p-3 footer" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 Noelia4kd
-      <a class="text-dark" href="https://github.com/noe4kd/Cultural-awareness-site">Open-source code</a>
+  <footer class="container-footer mt-2 mb-3">
+    <div class="footer d-flex justify-content-between" style="background-color: rgba(55, 128, 141, 0.2);">
+      <a href="/" class="footer ms-3">
+        Cultural Awareness
+      </a>
+      <spann class="coded-by d-none d-sm-block">©2022 Coded by <a
+          href="https://portfolioproject-noe4kd.netlify.app/">Noelia4kd</a>,
+        <a class="text-dark text-muted" href="https://github.com/noe4kd" title="Check out my GitHub">Open-source</a>
+        code
+      </spann>
+      <div class="icons p-0 text-end me-3">
+        <a href="https://www.linkedin.com/in/noelia4kd/?originalSubdomain=no" class="social-media p-1"
+          title=" My LinkedIn account"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/noe4kd" class="social-media p-3" title="My GitHub account"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="#" class="social-media p-1" title="Not working yet"><i class="fa-brands fa-facebook"></i></a>
+      </div>
     </div>
   </footer>
 </body>

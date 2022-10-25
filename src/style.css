@@ -5,9 +5,9 @@
  }
 
  :root {
-   --primary-color: #013dbe;
+   --primary-color: #2692A6;
    --secondary-color: #f2f7fe;
-   --box-shadow: 10px 10px 10px rgba(2, 41, 101, 0.3);
+   --box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
    --bs-border-radius: 10px;
  }
 
@@ -17,26 +17,37 @@
    background-position: right;
    background-size: 35%;
    background-attachment: fixed;
+   padding: 20px;
  }
 
  h1 {
-   font-size: 55px;
+   font-size: 65px;
    font-weight: bolder;
-   color: #022391;
+   color: rgb(38, 146, 166);
+   text-shadow: 0.5px 0.5px 1px rgb(40, 74, 83), 0 0 1em rgb(134, 208, 216), 0 0 0.2em rgb(121, 138, 139);
+   padding-left: 10px;
+ }
+
+ h1 a {
+   text-decoration: none;
+   color: #2692A6;
+ }
+
+ h1 a:hover {
+   color: #EF641A;
  }
 
  h2,
  h3 {
-   margin-top: 50px;
-   padding: 50px 0px 10px 35px;
    color: var(--primary-color);
+   padding-left: 20px;
+   text-shadow: 0.5px 0.5px 1px rgb(40, 74, 83), 0 0 1em rgb(134, 208, 216), 0 0 0.2em rgb(121, 138, 139);
  }
 
  h4 {
    font-family: "Montserrat", sans-serif;
-   padding: 30px 30px 0 30px;
    line-height: 1.5;
-   max-width: 800px;
+   max-width: 900px;
    color: #022391;
  }
 
@@ -124,7 +135,7 @@
 
  @media screen and (max-width: 576px) {
    h1 {
-     padding: 0px 35px 0px 25px;
+     font-size: 26px;
    }
 
    .card {
@@ -138,39 +149,37 @@
    .box1 {
      font-size: smaller;
    }
- }
 
+   .card-body {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     text-align: left;
+     background-color: #f1f1f1;
+   }
 
- .card-body {
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-   text-align: left;
-   background-color: #f1f1f1;
- }
+   .text {
+     padding: 0px 35px 5px 35px;
+     font-weight: bold;
+     max-width: 900px;
+   }
 
- .text {
-   padding: 0px 35px 5px 35px;
-   font-weight: bold;
-   max-width: 900px;
- }
+   .homepage {
+     padding: 0px 0px 35px 35px;
+   }
 
- .homepage {
-   padding: 0px 0px 35px 35px;
- }
+   .primary-link {
+     border-radius: 4px;
+     padding: 10px 10px;
+     text-decoration: none;
+     text-transform: capitalize;
+     background: var(--primary-color);
+     box-shadow: var(--box-shadow);
+     color: white;
+   }
 
- .primary-link {
-   border-radius: 4px;
-   padding: 10px 10px;
-   text-decoration: none;
-   text-transform: capitalize;
-   background: var(--primary-color);
-   box-shadow: var(--box-shadow);
-   color: white;
- }
+   .mb-5 {
+     font-size: 15px;
+   }
 
- .mb-5 {
-   font-size: 15px;
- }
-
- .primary-link:hover {
-   color: white;
- }
+   .primary-link:hover {
+     color: white;
+   }
