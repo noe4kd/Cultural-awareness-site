@@ -22,14 +22,28 @@
    padding: 20px;
  }
 
- .nav-item {
+ nav li {
    margin-left: 20px;
    margin-right: 20px;
+   color: var(--primary-color) !important;
+   font-weight: 600;
+   font-size: 20px;
  }
 
- .navbar-nav {
-   font-size: 18px;
-   margin: 20px 0;
+ nav li.active a {
+   color: var(--primary-color) !important;
+   font-weight: 600;
+ }
+
+ nav a {
+   text-decoration: none;
+   transition: all 150ms ease-in-out;
+   color: #EF641A !important
+ }
+
+ nav a:hover {
+   color: var(--primary-color);
+   background: none;
  }
 
  h1 {
