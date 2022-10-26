@@ -206,18 +206,22 @@
 
 
  @media screen and (max-width: 576px) {
+
    h1 {
      font-size: 26px;
      margin: 0;
      padding-left: 0;
    }
 
-   h2 {
-     padding: 5px;
+   h2,
+   h3,
+   h4 {
+     padding: 10px;
+     font-size: 22px;
    }
 
    .card {
-     width: 80%;
+     width: 100%;
      display: block;
      margin-bottom: 20px;
      border-radius: 10px;
@@ -234,13 +238,14 @@
    }
 
    .text {
-     padding: 0px 15px;
+     padding: 0px 10px;
      font-weight: bold;
-     max-width: 900px;
+     font-size: 18px;
+     width: 100%;
    }
 
    .homepage {
-     padding: 0px 0px 35px 35px;
+     padding: 10px 35px 20px -10px;
    }
 
    .primary-link {
